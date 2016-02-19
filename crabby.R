@@ -24,3 +24,9 @@ crab_file <- system.file(
 	skip = 15,
 	nrow = 3
 ))
+
+(crab_total <- read.csv(
+	crab_file,
+	header = FALSE,
+	nrow = 42	
+))
