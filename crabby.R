@@ -10,3 +10,17 @@ crab_file <- system.file(
 	skip = 3,
 	nrow = 2
 ))
+
+(crab_tag_notebook <- read.csv(
+	crab_file,
+	header = FALSE,
+	skip = 8,
+	nrow = 5
+))
+
+(crab_lifetime_notebook <- read.csv(
+	crab_file,
+	header = FALSE,
+	skip = 15,
+	nrow = 3
+))
